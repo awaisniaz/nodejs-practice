@@ -3,7 +3,7 @@ class Error {
         this.data = data
     }
     erroThrow = () => {
-        console.log(this.data)
+        return this.data
     }
 }
 
